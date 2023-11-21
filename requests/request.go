@@ -15,7 +15,7 @@ type Request struct {
 }
 
 func (r Request) Do() (tr []byte, err error) {
-	url := fmt.Sprintf("https://%s/%d/%s/", auth.GetAPIurl(), auth.GetUserID(), r.Destiny)
+	url := fmt.Sprintf("https://%s/v1/%d/%s/", auth.GetAPIurl(), auth.GetUserID(), r.Destiny)
 
 	client := &http.Client{}
 	req, _ := http.NewRequest(r.Method, url, r.Body)
