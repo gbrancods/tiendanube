@@ -5,7 +5,6 @@ package customer
 
 import (
 	"encoding/json"
-	"fmt"
 )
 
 func defaultCustomer() CustomerOpts {
@@ -71,7 +70,6 @@ func (c Customer) Create() (r Customer, err error) {
 	if err != nil {
 		return
 	}
-	fmt.Println(string(br))
 	err = json.Unmarshal(br, &r)
 	return
 }
