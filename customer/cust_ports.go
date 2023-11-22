@@ -46,6 +46,14 @@ func SetPassword(password string) OptCus {
 	}
 }
 
+// A JSON object containing custom information. Can be set via the API or through
+// custom form fields of name "extra[key]" on the Customer's register form in the storefront.
+func SetExtra(extra Extra) OptCus {
+	return func(c *CustomerOpts) {
+		c.Extra = extra
+	}
+}
+
 // Initialize a customer instance
 func New(opts ...OptCus) *Customer {
 
