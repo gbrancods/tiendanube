@@ -1,8 +1,9 @@
 # Tiendanube Go SDK 
 ### A complete sdk for the Tiendanube *(beta version)*
 
-### All examples are available in the package [tiendanube-consumer](https://github.com/gbrancods/tiendanube-consumer)
-### Example of how to use:
+#### All examples are available in the package [tiendanube-consumer](https://github.com/gbrancods/tiendanube-consumer)
+#### Get the package running: `go get github.com/gbrancods/tiendanube`
+#### Example of how to use:
 
 ```go
 // All documentation is imported, hover over imports or functions for more details
