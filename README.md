@@ -1,7 +1,7 @@
 # Tiendanube Go SDK 
 ### A complete sdk for the Tiendanube *(beta version)*
 
-### All examples are available in the package [tiendanube-consumer](https://)
+### All examples are available in the package [tiendanube-consumer](https://github.com/gbrancods/tiendanube-consumer)
 ### Example of how to use:
 
 ```go
